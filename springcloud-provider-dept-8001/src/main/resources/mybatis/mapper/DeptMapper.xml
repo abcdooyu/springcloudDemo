@@ -12,6 +12,6 @@
     </select>
 
     <select id="queryAllDept" resultType="Dept" parameterType="Long">
-        select * from dept ;
+        select * from db01.dept;
     </select>
 </mapper>
