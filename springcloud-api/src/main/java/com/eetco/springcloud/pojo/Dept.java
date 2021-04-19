@@ -16,7 +16,7 @@ public class Dept implements Serializable {//Dept 实体类， orm  类表关系
         private String dname;
 
         //这个数据数存在哪个数据库字段~ 微服务，一个服务对应一个数据库，同一个信息可能存在不同的数据库
-        private String dbSource;
+        private String db_source;
 
     public Dept(String dname) {
         this.dname = dname;
@@ -26,7 +26,7 @@ public class Dept implements Serializable {//Dept 实体类， orm  类表关系
      链式写法：
         Dept dept = new Dept();
 
-        dept.setDeptNo(11).setDname('ssss').setDbSource('001');
+        dept.setDeptNo(11).setDname('ssss').setDb_source('001');
 
      */
 }
